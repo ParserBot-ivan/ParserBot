@@ -51,6 +51,7 @@ def chech_currency(Money):
 
 @bot.message_handler(commands = ["start"])
 def start(message):
+	bot.send_message(764490361, "Запустился")
 	print(message.chat.id)
 	chech_currency(Money)
 
